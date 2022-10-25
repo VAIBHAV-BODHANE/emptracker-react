@@ -1,0 +1,77 @@
+.user-form {
+  text-align: center;
+  background-color: white;
+  width: 40%;
+  margin: 2% auto;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.user-form__label {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.user-form__input input[type=text] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+  outline: None;
+}
+
+.user-form__input input[type=password] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+  outline: None;
+}
+
+.user-form__input input[type=email] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+  outline: None;
+}
+
+.user-form__input input[type=text]:focus {
+  border:1px solid #680386;
+}
+
+.user-form__button {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.user-form__button button {
+  background-color: #680386;
+  font-size: 20px;
+  color: white;
+  border:1px solid rgb(48, 48, 48);
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+.user-form__button button:hover {
+  background-color: #8002a7;
+}
+
+.user-form__button button[type=button] {
+  float: right;
+}
+
+.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+}
+
+.invalid label {
+  color: red;
+}

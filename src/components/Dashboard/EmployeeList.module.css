@@ -1,0 +1,74 @@
+.leave-list {
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  margin: 2% auto;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.leave-list__button {
+  margin: 20px 0;
+  text-align: right;
+}
+
+.leave-list__button button {
+  background-color: #680386;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border:1px solid rgb(48, 48, 48);
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin: 0 3px 30px;
+}
+.leave-list__button button:hover {
+  background-color: #8002a7;
+}
+
+.leave-list__list {
+  border: 1px solid #a1a1a1;
+  width: 100%;
+  padding: 5px 2px;
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 0;
+  border-radius: 2px;
+}
+
+.leave-list__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 0 20px;
+}
+.leave-list__approve {
+  color: #28a745;
+}
+.leave-list__reject {
+  color: #dc3545;
+}
+.leave-list__pending {
+  color: #ffc107;
+}
+
+.leave-list__input {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.leave-list__input input {
+  border:1px solid rgb(48, 48, 48);
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+  outline: None;
+}
+
+

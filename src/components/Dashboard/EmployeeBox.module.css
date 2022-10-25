@@ -1,0 +1,32 @@
+.employeebox__empbox {
+  border: 1px solid #a1a1a1;
+  margin: 3px 3px;
+  background: #a1a1a1; 
+  padding: 3px 2px;
+  border-radius: 3px;
+  width: 5.5rem
+}
+
+.employeebox__emp{
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem;
+  height: 2rem;  
+  align-items: center;
+  justify-content: center;
+}
+
+.employeebox__empid {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem; 
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 20px; */
+}
